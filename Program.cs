@@ -24,7 +24,7 @@ namespace FizzBuzz
                 max = 100;
             }
             for (int i = min; i < max; i++)
-            {
+            {//Bulk of the problem. This will iterate through the given min and max, either printing the number, printing Fizz for numbers divisible by 3, printing Buzz for numbers divisible by 5, or printing FizzBuzz for both
                 bool threeDivIsTrue = (i % 3 == 0);
                 bool fiveDivIsTrue = (i % 5 == 0);
                 if (threeDivIsTrue && fiveDivIsTrue)
